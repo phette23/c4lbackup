@@ -1,0 +1,4 @@
+DIR=/path/to/this/repo
+# this is "run every four hours"
+# m h  dom mon dow   command
+0 */4 * * * cd $DIR && $DIR/backup.sh
